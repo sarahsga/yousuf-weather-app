@@ -1,0 +1,245 @@
+html, body {
+	height: 100%;
+}
+
+.web-title {
+	text-align: center;
+	border-bottom: 1px solid#fff;
+    padding-bottom: 0.2em;
+    color: #fff;
+    font-family:sans-serif;
+	letter-spacing: 1px;
+	
+	
+}
+.temp {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 75px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+	color: #fff;
+	margin-top: -21px;
+	
+}
+body {
+	
+	background-image: url("images/clouds.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 135px;
+}
+.city {
+	color: #fff;
+    font-weight: initial;
+    font-size: 2.5rem;
+    padding-bottom: 11px;
+}
+.main{
+
+}
+
+form {
+	text-align: center;
+    width: 379px;
+    height: 17px !important;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.3);
+    outline: none;
+    font-size: 1em;
+}
+city {
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-family: sans-serif;
+}
+.form-group {
+	margin-bottom: 12px !important;
+	
+}
+.form-control {
+	
+    
+}
+.last-update > p {
+	font-size: 18.6px;
+    font-weight: lighter;
+	color: #fff;
+	text-align: center;
+	
+}
+.info {
+	
+	color: #fff;
+    font-size: 3.5vh;
+    font-weight: lighter;
+	text-align: center;
+}
+.more-city-weather>p{
+	color: #fff;
+    font-size: 2.5vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+.increase-boder {
+	height: 48px;
+    width: 435px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+.more-city-weather {
+	margin-top: -14px;
+
+}
+.background {
+	background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 530px;
+    display: block;
+    padding: 20px;
+	margin: 60px auto auto;
+}
+  
+
+/* html,body {
+	height: 100%;
+	
+}
+section {
+	background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 530px;
+    display: block;
+    padding: 20px;
+	margin: 60px auto auto;
+
+}
+body {
+	background-image: url("images/clouds.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.title, .city, .last-update, .temp, .info, .more-city-weather, .input-city, .input-state, .search-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	
+}
+.app {
+	border-bottom: 1px solid #fff;
+	letter-spacing: 2px;
+	padding: 15px;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+.city > h2{
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-family: sans-serif;
+} 
+.last-update > p {
+	font-size: 15.6px;
+	font-weight: lighter;
+	
+}
+.temp {
+	font-size: 70px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-top: 22px;
+}
+.city,.main {
+	margin-top: -42px;
+    padding: 0;
+    margin-bottom: -20px;
+}
+.info {
+	margin-top: -42px;
+    padding: 0;
+    margin-bottom: -20px;
+    font-size: 3.5vh;
+    font-weight: lighter;
+   font-family: sans-serif;
+}
+.border {
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.more-city-weather >p{
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: sans-serif;
+	margin-top: 0;
+}
+input {
+	width: 287px;
+    height: 25px;
+    border: none;
+    border-radius: 6px;
+    background:rgba(0, 0, 0, 0.3);
+    color: #fff;
+    outline: none;
+    font-size: 1em;
+    text-align: center;
+}
+	
+.input-2 {
+	margin: 12px;
+}
+
+button {
+    outline: none;
+    height: 37px;
+    background-color: #3f508c;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    width: 110px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: 2.5px
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.4);
+	  #1e90ff
+}
+input::placeholder {
+	color: white;
+
+}
+button:hover {
+	
+	transition: all .3s;
+	box-shadow: 0px 8px 40px rgba(1, 1, 7, 0.4);
+}
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer p {
+	color: #fff;
+	font-size: 15px;
+} */

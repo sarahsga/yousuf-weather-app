@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather App</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body> 
+    <div class="background">
+            <section class="container">
+                    <h1 class="web-title">WHEATHER APP</h1>
+            
+                    <div>
+                        <h2 class="city" >Karachi, PK</h2>
+                    </div>
+                    <div class="last-update">
+                        <p> Last Updated on August 7, 11:15 PM PST Local Time</p>
+                    </div>
+                    <div class="main">
+                        <h1 class=temp>
+                            <img src="images/logo.png">29°C</h1>
+                    </div>
+                    <div class="increase-boder">
+                            <p class="info">Partialy Cloudy,Humidity: 28%</P>
+                    </div>
+                    <br>
+                    <div class="more-city-weather">
+                        <p>Search Another Location</p>
+                    </div>
+            
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="City">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="State or Country">
+                        </div>
+            
+                        <button type="submit" class="btn btn-primary" onclick="getWeather()">Search City</button>
+                    </form>
+                </section>
+</div>
+    
+    <!-- <footer>
+        <p>Copyright © 2018 The Weather Forecast Inc. All rights reserved</p>
+    </footer> -->
+
+</body>
+
+</html>
